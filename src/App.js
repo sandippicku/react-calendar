@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className='app'>
-      <h1 className='text-center'>React Calendar with Range</h1>
+      <h1 className='text-center'>React Custom Calendar</h1>
       <div className='calendar-container'>
         <Calendar
           onChange={setDate}
@@ -56,7 +56,7 @@ function App() {
         </p>
       ) : (
         <p className='text-center'>
-          <span className='bold'>Default selected date:</span>{' '}
+          <span className='bold'>Default date:</span>{' '}
           {date.toDateString()}
         </p>
       )}
